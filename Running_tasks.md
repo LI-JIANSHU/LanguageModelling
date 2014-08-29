@@ -3,7 +3,7 @@
   - The first trial: sentences begins with `<s>` and ends with `</s>`
   - The second trial: sentences begins as usual and ends with `</s>`
 
-
+---
 
 ## Local laptop:
  * Kaldi-Swbd-s5b: run.sh, with fisher (killed) 
