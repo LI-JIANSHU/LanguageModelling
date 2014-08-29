@@ -41,7 +41,7 @@ The probabilities are often in log10 domain and the backoffs are optional. It wi
  ---
  
 ## How the ARPA file is generated. 
-Although there are a lot of toolkits to generate LM in ARPA format, there is not much documentation about how it is generated.
+Although there are a lot of toolkits to generate LM in ARPA format, there is not much documentation about how it is generated. Here is what I found about it.
  * How the number of N-grams are decided
    - **Unigram**: It is the easiest one to generate from the training dataset. Just list every single words (including `<s>` and `</s>` ) in the training set and remove the repeated words. In other words, the number of unigrams is the number of unique words in the training set. 
    
@@ -52,4 +52,4 @@ List all the bigrams from all the sentences and then remove the duplicated bigra
    - Higher N-gram: The same procudure in **Trigram** is applied.
 
  * The remaining steps to build a ARPA format LM
-Various smoothing, discounting methods can be applied to calculate the probabilities of the N-grams and the backoff probabilities. 
+Various smoothing, discounting methods can be applied to calculate the probabilities of the N-grams and the backoff probabilities. It is not discussed here, as the documentation in the LM toolkits will always cover them. 
