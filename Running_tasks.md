@@ -17,7 +17,7 @@
 ---
 
 ## ML1:
- * Kaldi-SWBD-s5b: run.sh,without fisher, replaced arpa( trail1)
+ * Kaldi-SWBD-s5b: run.sh, without fisher, using arpa from the first trail of SPNLM training
  * SPNLM training, the second trial, both 1-spn and 2-spn (finished)
  
 ---
