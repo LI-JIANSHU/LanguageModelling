@@ -1,13 +1,53 @@
-## Hello
- * 1
- * 2
+## Introduction to language model format:  ARPA
+ * It is a commonly used file format for LM, a lot of toolkits are available to generate the LM format: <a href='http://www.speech.cs.cmu.edu/SLM/toolkit.html'> CMU-LM</a>, <a href='http://projects.csail.mit.edu/cgi-bin/wiki/view/SLS/MITLMTutorial'> MIT-LM</a>, <a href='http://www.speech.sri.com/projects/srilm/'> SRILM</a>, <a href='https://hlt.fbk.eu/technologies/irstlm-irst-language-modelling-toolkit'> IRSTLM </a>, ect. The input to the toolkits are usually a training text file with transcriptions, one sentence per line. The beginning of sentence tag "\<s>" and end of sentence tag "\</s>" are usually inserted automatically. The various kinds of smoothing methods can be applied at your own choice. 
+ * There are a lot of toolkits available to generate ARPA format LM. The content of ARPA LM is also quite clear if you looked into one of the ARPA files. One sample ARPA file looks like:
+
+```
+\data\
+ngram 1=30248
+ngram 2=455653
+ngram 3=272635
+
+\1-grams:
+-5.644002	!sil
+-5.106135	-'s	-0.1416712
+-5.644002	-'t
+-5.490593	-1k	-0.1416712
+-5.490593	-able	-0.1416712
+-5.644002	-ains
+-4.99885	-an	-0.1416712
+
+\2-grams:
+-2.990698	plan whatsoever
+-1.682168	plan where	-0.115172
+-2.186728	plan which
+-2.618273	plan with
+-2.968209	plan worked
+
+\3-grams:
+-0.2829364	the zipper went
+-0.2700108	time zone </s>
+-0.6325949	twilight zone rules
+-0.2700108	war zone </s>
+-0.2056841	the zoo and
+
+\end\
+```
+
+The meta data begins with tag \data\, then the total numbers of each n-gram are listed. Under each \N-gram tag, the N-grams are listed as:
+`probability n-gram (backoff probability)`
+The probabilities are often in log10 domain and the backoffs are optional. It will also contain some headings giving additional information.
  
  ---
  
-## Hello
- * 1
- * 2
- 
+## How the ARPA file is generated. 
+ * Although there are a lot of toolkits to generate LM in ARPA format, there is not much documentation about how it is generated.
+ * How the number of N-grams are decided
+   - Unigram
+   It is the easiest one to generate from the training dataset. Just list every single words in the training set and remove the repeated words. In other words, the number of unigrams is the number of unique words in the training set. 
+   - Bigram 
+   - 
+   
  ---
 
 
