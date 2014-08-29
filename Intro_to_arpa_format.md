@@ -1,6 +1,6 @@
 ## Introduction to language model format:  ARPA
  * It is a commonly used file format for LM, a lot of toolkits are available to generate the LM format: <a href='http://www.speech.cs.cmu.edu/SLM/toolkit.html'> CMU-LM</a>, <a href='http://projects.csail.mit.edu/cgi-bin/wiki/view/SLS/MITLMTutorial'> MIT-LM</a>, <a href='http://www.speech.sri.com/projects/srilm/'> SRILM</a>, <a href='https://hlt.fbk.eu/technologies/irstlm-irst-language-modelling-toolkit'> IRSTLM </a>, ect. The input to the toolkits are usually a training text file with transcriptions, one sentence per line. The beginning of sentence tag "\<s>" and end of sentence tag "\</s>" are usually inserted automatically. The various kinds of smoothing methods can be applied at your own choice. 
- * There are a lot of toolkits available to generate ARPA format LM. The content of ARPA LM is also quite clear if you looked into one of the ARPA files. One sample ARPA file looks like:
+ * There are a lot of toolkits available to generate ARPA format LM. The content of ARPA LM is also quite clear if you looked into one of the ARPA files. A sample ARPA file looks like:
 
 ```
 \data\
