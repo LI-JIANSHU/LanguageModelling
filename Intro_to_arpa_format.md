@@ -11,25 +11,14 @@ ngram 3=272635
 \1-grams:
 -5.644002	!sil
 -5.106135	-'s	-0.1416712
--5.644002	-'t
--5.490593	-1k	-0.1416712
--5.490593	-able	-0.1416712
--5.644002	-ains
--4.99885	-an	-0.1416712
 
 \2-grams:
 -2.990698	plan whatsoever
 -1.682168	plan where	-0.115172
--2.186728	plan which
--2.618273	plan with
--2.968209	plan worked
 
 \3-grams:
 -0.2829364	the zipper went
 -0.2700108	time zone </s>
--0.6325949	twilight zone rules
--0.2700108	war zone </s>
--0.2056841	the zoo and
 
 \end\
 ```
