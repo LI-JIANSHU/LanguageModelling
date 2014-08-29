@@ -46,7 +46,7 @@ The probabilities are often in log10 domain and the backoffs are optional. It wi
    - **Unigram**: It is the easiest one to generate from the training dataset. Just list every single words (including `<s>` and `</s>` ) in the training set and remove the repeated words. In other words, the number of unigrams is the number of unique words in the training set. 
    
    - **Bigram**: For a sentence with N words, including `<s>` and `</s>`, N+1 bigrams can be built as:
-``   `<s>` w1;  w1 w2; w2 w3 ... wN `</s>` ``. 
+``   `<s>` w1;  w1 w2; w2 w3; ... wN `</s>`; ``. 
 List all the bigrams from all the sentences and then remove the duplicated bigrams. Then you can get the list of bigrams in the ARPA file.
    - **Trigram**: For a sentence with N words, including `<s>` and `</s>`, N trigrams can be built. List all the trigrams from all the sentences and then remove the duplicated trigrams. As each trigram is less likely to repeat itself, the number of unique trigrams is much larger than that of bigrams. One more step is carried out, i.e., the trigrams that appears only once is the training dateset is removed. After this step, the remaining trigrams are the ones you find in the ARPA file. 
    - Higher N-gram: The same procudure in **Trigram** is applied.
