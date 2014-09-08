@@ -13,7 +13,8 @@
 
 ## AI1:
  * Kaldi-Swbd-s5b: run.sh, with fisher. (finished) 
-The result <a href='Results/swbd_run'>here</a> is similar to that given in Kaldi. The result is formatted <a href='Results/kaldi_result'>here</a>
+The result <a href='Results/swbd_run'>here</a> is similar to that given in Kaldi. The result is formatted <a href='Results/kaldi_result'>here</a>. 
+ * The most updated result is <a href='Results/most_updated'>here</a>.   
     
 ---
 
