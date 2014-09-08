@@ -37,7 +37,7 @@ Although there are a lot of toolkits to generate LM in ARPA format, there is not
    - **Bigram**: For a sentence with N words, including `<s>` and `</s>`, N+1 bigrams can be built as:
 ``   `<s>` w1;  w1 w2; w2 w3; ... wN `</s>`; ``. 
 List all the bigrams from all the sentences and then remove the duplicated bigrams. Then you can get the list of bigrams in the ARPA file.
-   - **Trigram**: For a sentence with N words, including `<s>` and `</s>`, N trigrams can be built. List all the trigrams from all the sentences and then remove the duplicated trigrams. As each trigram is less likely to repeat itself, the number of unique trigrams is much larger than that of bigrams. One more step is carried out, i.e., the trigrams that appears only once is the training dateset is removed. After this step, the remaining trigrams are the ones you find in the ARPA file. 
+   - **Trigram**: For a sentence with N words, including `<s>` and `</s>`, N trigrams can be built. List all the trigrams from all the sentences and then remove the duplicated trigrams. As each trigram is less likely to repeat itself, the number of unique trigrams is much larger than that of bigrams. One more step is carried out, i.e., the trigrams that appears only once is the training dateset is removed. After this step, the remaining trigrams are the ones you find in the ARPA file. However, for smaller data set, or some of the toolkits, the pruning is not done. Instead, all the unique trigrams are in the list. 
    - Higher N-gram: The same procudure in **Trigram** is applied.
 
  * The remaining steps to build a ARPA format LM
