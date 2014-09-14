@@ -8,6 +8,7 @@
 ## Local laptop:
  * Kaldi-Swbd-s5b: run.sh, with fisher (killed) 
  * Calculating probabilities for training Trial 2 (uncomplete). 
+ * Perplexity analysis for various LM. Result is <a href='Results/ppl_analysis'>here</a>
 
 ---
 
