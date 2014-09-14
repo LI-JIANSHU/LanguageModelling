@@ -15,3 +15,7 @@
 12.  252.608     The SPNLM with grams from training dataset
 
 
+
+* The optimal weight is highly bias to ARPA LM: 0.99. It makes no sense to use the optimal weight, since our SPNLM has very little weight. 
+
+* All the weights in SPNLM above are trained by training data set only. 
