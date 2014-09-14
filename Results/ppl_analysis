@@ -1,0 +1,17 @@
+       PPL           LM
+
+
+1.    8.17827     the ARPA LM from the evaluation data set itself
+2.    12.472       the ARPA LM from the evaluation data set mixed with SPNLM with equal weight. (*)
+3.    12.472       the ARPA LM from the evaluation data set mixed with SPNLM with equal weight with back-off weight recalculated
+4.    101.059     The SPNLM with grams from evaluation dataset and back-off weights recalculated
+5.    101.084     The SPNLM with grams from evaluation dataset
+6.    106.67       The SPNLM with grams from both evaluation dataset and training data set and back-off weight recalculated
+7.    117.84       The SPNLM with grams from both evaluation dataset and training data set
+8.    168.275     The ARPA LM from the training data set mixed with SPNLM with equal weight, and back-off weight recalculated
+9.    176.891     The ARPA LM from the training data set
+10.  187.637     The SPNLM with grams from training dataset and back-off weight recalculated
+11.  187.929     The ARPA LM from the training data set mixed with SPNLM with equal weight. 
+12.  252.608     The SPNLM with grams from training dataset
+
+
