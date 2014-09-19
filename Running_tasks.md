@@ -10,6 +10,8 @@
  * Calculating probabilities for training Trial 2 (uncomplete). 
  * Perplexity analysis for various LM. Result is <a href='Results/ppl_analysis'>here</a>
  * The second Perplexity analysis for various LM. Result is <a href='Results/ppl_analysis2'>here</a>
+ * Training 1,2-SPN
+ * Training 2SPN from weights in 1SPN
 
 ---
 
