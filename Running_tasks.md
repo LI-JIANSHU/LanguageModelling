@@ -2,6 +2,7 @@
  * SPNLM training:
   - The first trial: sentences begins with `<s>` and ends with `</s>`
   - The second trial: sentences begins as usual and ends with `</s>`
+ * Handling the grams
   - Adding grams from evaluation dataset, the first trial
   - Adding grams from evaluation dataset, the second trial
 
