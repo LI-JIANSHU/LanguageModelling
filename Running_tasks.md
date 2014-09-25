@@ -15,6 +15,7 @@
  * The second Perplexity analysis for various LM. Result is <a href='Results/ppl_analysis2'>here</a>
  * Training 1,2-SPN
  * Training 2SPN from weights in 1SPN (always get nan, stopped)
+ * The third Perplexity analysis for various LM. Result is <a href='Results/ppl_analysis3'>here</a>
 
 ---
 
@@ -25,7 +26,8 @@ The result <a href='Results/swbd_run'>here</a> is similar to that given in Kaldi
  * run_spnlm.sh new_arpas/eval2000.spnlm.rebow.arpa.gz (aborted, the G.fst can't be composed with L.fst, as G.fst is too small and they do not match)
  * run_spnlm.sh sw1.o3g.kn_spnlm_addeval.arpa.gz. (Finished). Result is <a href='Results/spnlm_addeval'>here</a>
  * run_spnlm.sh eval2000_v2_spnlm_rebow.arpa.gz (Finished). Result is <a href='Results/eval_v2_rebow'>here</a>
- * run_spnlm.sh sw1.o3g.kn_spnlm_addeval2_rebow.arpa.gz. Result is <a href='Results/sw1_addeval2_rebow'>here</a>
+ * run_spnlm.sh sw1.o3g.kn_spnlm_addeval2_rebow.arpa.gz. (Finished) Result is <a href='Results/sw1_addeval2_rebow'>here</a>
+ * run_spnlm.sh sw1.o3g.kn_spnlm_addeval3_dumbow.arpa.gz. (Finished) Result is <a href='Results/sw1_addeval3_dumbow'>here</a>
     
 ---
 
@@ -38,5 +40,6 @@ The result <a href='Results/swbd_run'>here</a> is similar to that given in Kaldi
  * run_spnlm.sh sw1.o3g.kn_spnlm_addeval_rebow.arpa.gz (Finished). Result is <a href='Results/spnlm_addeval_rebow'>here</a>
  * run_spnlm.sh eval2000_v2_spnlm.arpa.gz (Finished). Result is <a href='Results/eval_v2'>here</a>
  * run_spnlm.sh sw1.o3g.kn_spnlm_addeval2.arpa.gz. (Finished) Result is <a href='Results/sw1_addeval2'>here</a>
+ * run_spnlm.sh eval_spn_dumbow.arpa.gz (Finished). Result is <a href='Results/eval_spn_dumbow'>here</a>
  
 ---
