@@ -4,23 +4,24 @@
         38.0%   37.1%   43.1%   38.5%   exp/tri3b/decode_eval2000_
         32.1%   31.3%   37.7%   33.3%   exp/tri4a/decode_eval2000_
         40.8%   39.8%   47.8%   41.7%   exp/tri4a/decode_eval2000_.si
-        31.1%   30.2%   exp/tri4a_fmmi_b0.1/decode_eval2000_it4_
-        29.8%   29.0%   exp/tri4a_fmmi_b0.1/decode_eval2000_it5_
-        29.4%   28.6%   exp/tri4a_fmmi_b0.1/decode_eval2000_it6_
-        29.2%   28.4%   exp/tri4a_fmmi_b0.1/decode_eval2000_it7_
-        29.1%   28.4%   exp/tri4a_fmmi_b0.1/decode_eval2000_it8_
-        30.6%   29.8%           exp/tri4a_mmi_b0.1/decode_eval2000_1.mdl_
-        29.9%   29.2%   exp/tri4a_mmi_b0.1/decode_eval2000_2.mdl_
-        29.7%   28.8%   exp/tri4a_mmi_b0.1/decode_eval2000_3.mdl_
-        29.5%   28.9%   exp/tri4a_mmi_b0.1/decode_eval2000_4.mdl_
+        31.1%   30.2%   36.4%   32.0%   exp/tri4a_fmmi_b0.1/decode_eval2000_it4_
+        29.8%   29.0%   35.0%   30.5%   exp/tri4a_fmmi_b0.1/decode_eval2000_it5_
+        29.4%   28.6%   34.4%   30.0%   exp/tri4a_fmmi_b0.1/decode_eval2000_it6_
+        29.2%   28.4%   34.2%   29.7%   exp/tri4a_fmmi_b0.1/decode_eval2000_it7_
+        29.1%   28.4%   34.1%   29.8%   exp/tri4a_fmmi_b0.1/decode_eval2000_it8_
+        30.6%   29.8%   35.8%   31.5%   exp/tri4a_mmi_b0.1/decode_eval2000_1.mdl_
+        29.9%   29.2%   35.0%   30.8%   exp/tri4a_mmi_b0.1/decode_eval2000_2.mdl_
+        29.7%   28.8%   34.6%   30.4%   exp/tri4a_mmi_b0.1/decode_eval2000_3.mdl_
+        29.5%   28.9%   34.6%   30.3%   exp/tri4a_mmi_b0.1/decode_eval2000_4.mdl_
         29.9%   29.0%   34.5%   30.5%   exp/tri4b/decode_eval2000_
         38.1%   37.3%   45.0%   39.2%   exp/tri4b/decode_eval2000_.si
-        29.0%   28.2%   exp/tri4b_fmmi_b0.1/decode_eval2000_it4_
-        27.6%   26.8%   exp/tri4b_fmmi_b0.1/decode_eval2000_it5_
-        27.0%   26.1%   exp/tri4b_fmmi_b0.1/decode_eval2000_it6_
-        26.9%   26.0%   exp/tri4b_fmmi_b0.1/decode_eval2000_it7_
-        26.8%   26.0%   exp/tri4b_fmmi_b0.1/decode_eval2000_it8_
-        28.1%   27.4%   exp/tri4b_mmi_b0.1/decode_eval2000_1.mdl_
-        27.3%   26.5%   exp/tri4b_mmi_b0.1/decode_eval2000_2.mdl_
-        27.2%   26.3%   exp/tri4b_mmi_b0.1/decode_eval2000_3.mdl_
-        27.2%   26.3%   exp/tri4b_mmi_b0.1/decode_eval2000_4.mdl_
+        29.0%   28.2%   33.3%   29.3%   exp/tri4b_fmmi_b0.1/decode_eval2000_it4_
+        27.6%   26.8%   31.8%   28.0%   exp/tri4b_fmmi_b0.1/decode_eval2000_it5_
+        27.0%   26.1%   31.1%   27.3%   exp/tri4b_fmmi_b0.1/decode_eval2000_it6_
+        26.9%   26.0%   30.8%   27.1%   exp/tri4b_fmmi_b0.1/decode_eval2000_it7_
+        26.8%   26.0%   30.8%   27.2%   exp/tri4b_fmmi_b0.1/decode_eval2000_it8_
+        28.1%   27.4%   32.4%   28.4%   exp/tri4b_mmi_b0.1/decode_eval2000_1.mdl_
+        27.3%   26.5%   31.6%   27.6%   exp/tri4b_mmi_b0.1/decode_eval2000_2.mdl_
+        27.2%   26.3%   31.4%   27.3%   exp/tri4b_mmi_b0.1/decode_eval2000_3.mdl_
+        27.2%   26.3%   31.3%   27.5%   exp/tri4b_mmi_b0.1/decode_eval2000_4.mdl_
+
