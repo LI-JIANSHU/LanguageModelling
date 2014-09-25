@@ -22,9 +22,9 @@
   - Grams from both training set and evaluation set. The result is <a href='Results/sw1_addeval2'>here</a>
   - Grams from both training set and evaluation set, with recalculation of backoff weight. The result is <a href='Results/sw1_addeval2_rebow'>here</a> (still running and updating)
   
-  * In the second trial of adding grams from evaluation dataset, the unigrams are unchanged and are directly from evaluation dataset. It is a piece of additional information and should not appear in the new LM. In the third trial, the unigrams are modified according to the original LM from training dataset. 
-  * Running with the third trial of adding grams from evaluation dataset. (Format: baseline, baseline with fisher, new LM, new LM with fisher, new LM with fisher with equal weights)
-   - Grams from evaluation dataset only, with a dummy backoff weight of -10. A BOW -10 is effectively -Inf and this manipulation will force the program to use higher order grams instead of lower ones. The result is <a href='Results / eval_spn_dumbow'>here</a>
+* In the second trial of adding grams from evaluation dataset, the unigrams are unchanged and are directly from evaluation dataset. It is a piece of additional information and should not appear in the new LM. In the third trial, the unigrams are modified according to the original LM from training dataset. 
+* Running with the third trial of adding grams from evaluation dataset. (Format: baseline, baseline with fisher, new LM, new LM with fisher, new LM with fisher with equal weights)
+   - Grams from evaluation dataset only, with a dummy backoff weight of -10. A BOW -10 is effectively -Inf and this manipulation will force the program to use higher order grams instead of lower ones. The result is <a href='Results /eval_spn_dumbow'>here</a>
    - Grams from both training set and evaluation set, with a dummy backoff weight of -10. The result is <a href='Results/sw1_addeval3_dumbow'>here</a>
   
   
