@@ -20,7 +20,7 @@
   - Grams from evaluation dataset only. The result is <a href='Results/eval_v2'>here</a>
   - Grams from evaluation dataset only, with recalculation of backoff weight. The result is <a href='Results/eval_v2_rebow'>here</a>
   - Grams from both training set and evaluation set. The result is <a href='Results/sw1_addeval2'>here</a>
-  - Grams from both training set and evaluation set, with recalculation of backoff weight. The result is <a href='Results/sw1_addeval2_rebow'>here</a> (still running and updating)
+  - Grams from both training set and evaluation set, with recalculation of backoff weight. The result is <a href='Results/sw1_addeval2_rebow'>here</a>
   
 * In the second trial of adding grams from evaluation dataset, the unigrams are unchanged and are directly from evaluation dataset. It is a piece of additional information and should not appear in the new LM. In the third trial, the unigrams are modified according to the original LM from training dataset. 
 * Running with the third trial of adding grams from evaluation dataset. (Format: baseline, baseline with fisher, new LM, new LM with fisher, new LM with fisher with equal weights)
