@@ -1,0 +1,5 @@
+99.6008 arpas/eval_spnlm_mu_dumbow.arpa.gz (Grams from only evaluation dataset, unigrams modified according to training dataset, BOW set to -10)
+99.6008 arpas/sw1.o3g.kn_spnlm_addeval3_dumbow.arpa.gz (Grams from both training and evaluation datasets, unigrams from training dataset, BOW set to -10)
+112.825 arpas/sw1.o3g.kn_spnlm_addeval3.arpa.gz (Grams from both training and evaluation datasets, unigrams from training dataset, BOW unchanged)
+119.336 arpas/eval_spnlm_mu.arpa.gz (Grams from only evaluation dataset, unigrams modified according to training dataset, BOW unchanged)
+176.891 arpas/sw1.o3g.kn.arpa.gz (Original LM in Kaldi, trained from training dataset)

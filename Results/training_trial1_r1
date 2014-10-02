@@ -1,0 +1,59 @@
+%WER 46.7 | 1831 21395 | 57.1 31.7 11.2 3.9 46.7 72.5 | exp/tri1/decode_eval2000_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 48.6 | 1831 21395 | 56.1 33.7 10.2 4.7 48.6 73.3 |-12.742 | exp/tri1/decode_eval2000_sw1_tg/score_11/eval2000.ctm.swbd.filt.sys
+%WER 46.2 | 1831 21395 | 58.1 31.9 10.0 4.4 46.2 73.1 | exp/tri2/decode_eval2000_sw1_fsh_tgpr/score_11/eval2000.ctm.swbd.filt.sys
+%WER 47.8 | 1831 21395 | 57.0 33.3 9.8 4.8 47.8 73.2 |-12.928 | exp/tri2/decode_eval2000_sw1_tg/score_11/eval2000.ctm.swbd.filt.sys
+%WER 37.1 | 1831 21395 | 66.7 24.7 8.7 3.8 37.1 68.9 | exp/tri3b/decode_eval2000_sw1_fsh_tgpr/score_14/eval2000.ctm.swbd.filt.sys
+%WER 38.4 | 1831 21395 | 66.3 26.1 7.7 4.7 38.4 69.9 | exp/tri3b/decode_eval2000_sw1_tg/score_12/eval2000.ctm.swbd.filt.sys
+%WER 32.6 | 1831 21395 | 71.4 21.4 7.2 4.0 32.6 66.7 | exp/tri4a/decode_eval2000_sw1_fsh_tgpr/score_14/eval2000.ctm.swbd.filt.sys
+%WER 41.2 | 1831 21395 | 63.8 28.0 8.2 5.1 41.2 71.6 | exp/tri4a/decode_eval2000_sw1_fsh_tgpr.si/score_11/eval2000.ctm.swbd.filt.sys
+%WER 33.5 | 1831 21395 | 70.8 22.3 6.8 4.3 33.5 66.8 | exp/tri4a/decode_eval2000_sw1_tg/score_13/eval2000.ctm.swbd.filt.sys
+%WER 42.8 | 1831 21395 | 62.1 29.3 8.7 4.9 42.8 71.3 | exp/tri4a/decode_eval2000_sw1_tg.si/score_12/eval2000.ctm.swbd.filt.sys
+%WER 23.4 | 1831 21395 | 79.3 14.9 5.8 2.7 23.4 60.5 | exp/tri4a_fmmi_b0.1/decode_eval2000_it4_sw1_fsh_tgpr/score_13/eval2000.ctm.swbd.filt.sys
+%WER 23.2 | 1831 21395 | 79.4 14.9 5.7 2.6 23.2 60.7 | exp/tri4a_fmmi_b0.1/decode_eval2000_it4_sw1_tg/score_13/eval2000.ctm.swbd.filt.sys
+%WER 22.3 | 1831 21395 | 80.3 14.1 5.6 2.6 22.3 59.9 | exp/tri4a_fmmi_b0.1/decode_eval2000_it5_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 22.0 | 1831 21395 | 80.4 13.9 5.7 2.3 22.0 59.4 | exp/tri4a_fmmi_b0.1/decode_eval2000_it5_sw1_tg/score_13/eval2000.ctm.swbd.filt.sys
+%WER 21.7 | 1831 21395 | 80.8 13.7 5.5 2.5 21.7 59.1 | exp/tri4a_fmmi_b0.1/decode_eval2000_it6_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 21.5 | 1831 21395 | 80.8 13.6 5.6 2.4 21.5 58.7 | exp/tri4a_fmmi_b0.1/decode_eval2000_it6_sw1_tg/score_13/eval2000.ctm.swbd.filt.sys
+%WER 21.5 | 1831 21395 | 80.9 13.6 5.5 2.4 21.5 59.3 | exp/tri4a_fmmi_b0.1/decode_eval2000_it7_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 21.3 | 1831 21395 | 81.2 13.4 5.3 2.5 21.3 59.3 | exp/tri4a_fmmi_b0.1/decode_eval2000_it7_sw1_tg/score_12/eval2000.ctm.swbd.filt.sys
+%WER 21.6 | 1831 21395 | 81.1 13.8 5.1 2.7 21.6 59.9 | exp/tri4a_fmmi_b0.1/decode_eval2000_it8_sw1_fsh_tgpr/score_11/eval2000.ctm.swbd.filt.sys
+%WER 21.3 | 1831 21395 | 81.4 13.6 5.0 2.7 21.3 59.4 | exp/tri4a_fmmi_b0.1/decode_eval2000_it8_sw1_tg/score_11/eval2000.ctm.swbd.filt.sys
+%WER 30.8 | 1831 21395 | 73.1 20.4 6.4 4.0 30.8 65.4 | exp/tri4a_mmi_b0.1/decode_eval2000_1.mdl_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 31.8 | 1831 21395 | 72.7 21.3 6.1 4.4 31.8 65.5 | exp/tri4a_mmi_b0.1/decode_eval2000_1.mdl_sw1_tg/score_11/eval2000.ctm.swbd.filt.sys
+%WER 29.9 | 1831 21395 | 74.1 19.9 6.0 4.0 29.9 64.8 | exp/tri4a_mmi_b0.1/decode_eval2000_2.mdl_sw1_fsh_tgpr/score_11/eval2000.ctm.swbd.filt.sys
+%WER 30.7 | 1831 21395 | 73.5 20.5 6.0 4.2 30.7 64.8 | exp/tri4a_mmi_b0.1/decode_eval2000_2.mdl_sw1_tg/score_11/eval2000.ctm.swbd.filt.sys
+%WER 29.6 | 1831 21395 | 74.2 19.5 6.3 3.7 29.6 64.6 | exp/tri4a_mmi_b0.1/decode_eval2000_3.mdl_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 30.4 | 1831 21395 | 73.9 20.2 5.9 4.2 30.4 65.0 | exp/tri4a_mmi_b0.1/decode_eval2000_3.mdl_sw1_tg/score_11/eval2000.ctm.swbd.filt.sys
+%WER 29.4 | 1831 21395 | 74.4 19.2 6.4 3.8 29.4 64.2 | exp/tri4a_mmi_b0.1/decode_eval2000_4.mdl_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 30.3 | 1831 21395 | 74.0 20.0 6.0 4.3 30.3 65.0 | exp/tri4a_mmi_b0.1/decode_eval2000_4.mdl_sw1_tg/score_11/eval2000.ctm.swbd.filt.sys
+%WER 29.2 | 1831 21395 | 74.7 19.2 6.1 4.0 29.2 65.8 | exp/tri4b/decode_eval2000_sw1_fsh_tg.3/score_14/eval2000.ctm.swbd.filt.sys
+%WER 29.2 | 1831 21395 | 74.6 19.0 6.4 3.8 29.2 65.3 | exp/tri4b/decode_eval2000_sw1_fsh_tgpr/score_15/eval2000.ctm.swbd.filt.sys
+%WER 38.3 | 1831 21395 | 66.9 25.9 7.3 5.1 38.3 70.5 | exp/tri4b/decode_eval2000_sw1_fsh_tgpr.si/score_11/eval2000.ctm.swbd.filt.sys
+%WER 29.9 | 1831 21395 | 74.7 19.7 5.5 4.6 29.9 66.0 | exp/tri4b/decode_eval2000_sw1_tg/score_12/eval2000.ctm.swbd.filt.sys
+%WER 40.2 | 1831 21395 | 64.8 27.7 7.5 5.0 40.2 70.6 | exp/tri4b/decode_eval2000_sw1_tg.si/score_12/eval2000.ctm.swbd.filt.sys
+%WER 21.4 | 1831 21395 | 80.9 13.5 5.6 2.3 21.4 59.5 | exp/tri4b_fmmi_b0.1/decode_eval2000_it4_sw1_fsh_tgpr/score_15/eval2000.ctm.swbd.filt.sys
+%WER 21.2 | 1831 21395 | 81.2 13.4 5.5 2.4 21.2 59.4 | exp/tri4b_fmmi_b0.1/decode_eval2000_it4_sw1_tg/score_15/eval2000.ctm.swbd.filt.sys
+%WER 20.2 | 1831 21395 | 82.2 12.8 5.1 2.4 20.2 58.1 | exp/tri4b_fmmi_b0.1/decode_eval2000_it5_sw1_fsh_tgpr/score_13/eval2000.ctm.swbd.filt.sys
+%WER 20.0 | 1831 21395 | 82.5 12.7 4.8 2.6 20.0 57.8 | exp/tri4b_fmmi_b0.1/decode_eval2000_it5_sw1_tg/score_12/eval2000.ctm.swbd.filt.sys
+%WER 19.5 | 1831 21395 | 82.6 12.4 5.0 2.2 19.5 57.2 | exp/tri4b_fmmi_b0.1/decode_eval2000_it6_sw1_fsh_tgpr/score_13/eval2000.ctm.swbd.filt.sys
+%WER 19.5 | 1831 21395 | 82.8 12.3 4.9 2.3 19.5 57.0 | exp/tri4b_fmmi_b0.1/decode_eval2000_it6_sw1_tg/score_13/eval2000.ctm.swbd.filt.sys
+%WER 19.6 | 1831 21395 | 82.8 12.5 4.7 2.5 19.6 57.4 | exp/tri4b_fmmi_b0.1/decode_eval2000_it7_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 19.4 | 1831 21395 | 82.7 12.1 5.2 2.1 19.4 57.0 | exp/tri4b_fmmi_b0.1/decode_eval2000_it7_sw1_tg/score_14/eval2000.ctm.swbd.filt.sys
+%WER 19.6 | 1831 21395 | 82.9 12.4 4.7 2.4 19.6 57.5 | exp/tri4b_fmmi_b0.1/decode_eval2000_it8_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 19.4 | 1831 21395 | 83.1 12.3 4.6 2.5 19.4 57.3 | exp/tri4b_fmmi_b0.1/decode_eval2000_it8_sw1_tg/score_12/eval2000.ctm.swbd.filt.sys
+%WER 27.8 | 1831 21395 | 76.2 18.4 5.4 4.0 27.8 64.1 | exp/tri4b_mmi_b0.1/decode_eval2000_1.mdl_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 28.3 | 1831 21395 | 76.3 18.9 4.8 4.6 28.3 64.9 | exp/tri4b_mmi_b0.1/decode_eval2000_1.mdl_sw1_tg/score_10/eval2000.ctm.swbd.filt.sys
+%WER 27.1 | 1831 21395 | 76.9 17.9 5.2 4.0 27.1 63.1 | exp/tri4b_mmi_b0.1/decode_eval2000_2.mdl_sw1_fsh_tgpr/score_11/eval2000.ctm.swbd.filt.sys
+%WER 27.6 | 1831 21395 | 76.8 18.5 4.7 4.3 27.6 63.2 | exp/tri4b_mmi_b0.1/decode_eval2000_2.mdl_sw1_tg/score_10/eval2000.ctm.swbd.filt.sys
+%WER 26.5 | 1831 21395 | 77.2 17.4 5.4 3.7 26.5 62.6 | exp/tri4b_mmi_b0.1/decode_eval2000_3.mdl_sw1_fsh_tgpr/score_12/eval2000.ctm.swbd.filt.sys
+%WER 27.3 | 1831 21395 | 76.8 18.2 5.0 4.1 27.3 62.5 | exp/tri4b_mmi_b0.1/decode_eval2000_3.mdl_sw1_tg/score_11/eval2000.ctm.swbd.filt.sys
+%WER 26.5 | 1831 21395 | 77.5 17.4 5.1 4.0 26.5 62.3 | exp/tri4b_mmi_b0.1/decode_eval2000_4.mdl_sw1_fsh_tgpr/score_11/eval2000.ctm.swbd.filt.sys
+%WER 27.2 | 1831 21395 | 76.9 18.1 5.0 4.1 27.2 62.6 | exp/tri4b_mmi_b0.1/decode_eval2000_4.mdl_sw1_tg/score_11/eval2000.ctm.swbd.filt.sys
+%WER 37.56 [ 18480 / 49204, 2485 ins, 3838 del, 12157 sub ] exp/tri4b/decode_train_dev_sw1_fsh_tgpr/wer_16
+%WER 47.72 [ 23481 / 49204, 2919 ins, 4578 del, 15984 sub ] exp/tri4b/decode_train_dev_sw1_fsh_tgpr.si/wer_13
+%WER 38.85 [ 19114 / 49204, 3015 ins, 3336 del, 12763 sub ] exp/tri4b/decode_train_dev_sw1_tg/wer_14
+%WER 49.51 [ 24362 / 49204, 3049 ins, 4511 del, 16802 sub ] exp/tri4b/decode_train_dev_sw1_tg.si/wer_13
+INFO:
+50 hours of training on both 1SPN and 2SPN 
+Use both starting tag <s> and ending tag </s> as words
+Wed Aug 27 15:24:17 SGT 2014
