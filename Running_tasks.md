@@ -28,6 +28,9 @@ The result <a href='Results/swbd_run'>here</a> is similar to that given in Kaldi
  * run_spnlm.sh eval2000_v2_spnlm_rebow.arpa.gz (Finished). Result is <a href='Results/eval_v2_rebow'>here</a>
  * run_spnlm.sh sw1.o3g.kn_spnlm_addeval2_rebow.arpa.gz. (Finished) Result is <a href='Results/sw1_addeval2_rebow'>here</a>
  * run_spnlm.sh sw1.o3g.kn_spnlm_addeval3_dumbow.arpa.gz. (Finished) Result is <a href='Results/sw1_addeval3_dumbow'>here</a>
+ * run_spnlm.sh fisher, modified unigrams with fixed "\<unk\>" probability, dummy the BOW at the very last stage. The resutl is [here](Results/mu2_dum)
+ * run_spnlm.sh  mixure of sw1,fisher,eval_spn with equal weights and the pruned version of it. The result is [here](Results/fish_mix_all)
+ * Decode deeplearn AM for various LMs. Result is [here](Results/deeplearn2)
     
 ---
 
@@ -41,5 +44,7 @@ The result <a href='Results/swbd_run'>here</a> is similar to that given in Kaldi
  * run_spnlm.sh eval2000_v2_spnlm.arpa.gz (Finished). Result is <a href='Results/eval_v2'>here</a>
  * run_spnlm.sh sw1.o3g.kn_spnlm_addeval2.arpa.gz. (Finished) Result is <a href='Results/sw1_addeval2'>here</a>
  * run_spnlm.sh eval_spn_dumbow.arpa.gz (Finished). Result is <a href='Results/eval_spn_dumbow'>here</a>
+ * run_spnlm.sh fisher trimmed sw1.o3g.kn (trimmed according to the grams in the evaluation dataset). Result is [here] (Results/fish_and_trimmed_sw1)
+ * Decode deeplearn AM for various LMs. Result is [here](Results/deeplearn1)
  
 ---
