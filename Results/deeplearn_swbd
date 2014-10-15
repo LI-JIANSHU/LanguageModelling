@@ -1,0 +1,14 @@
+=====================Results from eval2000.ctm.filt.dtl===========================
+exp/tri4a       exp_deeplearn/spn_tri4a exp_deeplearn/spn_tri4a_110h    exp_pdnn_110h/dnn       exp_pdnn_110h/cnn       LM
+37.8%   50.7%   51.7%   31.3%   32.4%   eval_spnlm_mu2
+58.2%   50.1%   51.1%   35.5%   35.8%   eval_spnlm_mu2_dum
+31.4%   46.4%   47.9%   24.8%   25.6%   fisher
+32.1%   47.0%   48.8%   25.2%   25.9%   sw1.o3g.kn_spnlm_addeval3_dumbow_fsh.pr
+29.3%   44.3%   45.8%   23.4%   24.5%   sw1_fsh_spn
+31.2%   45.9%   47.6%   24.5%   25.6%   sw1_fsh_spn.pr
+31.3%   46.0%   47.4%   24.9%   25.6%   sw1_fsh_tgpr
+32.1%   46.7%   47.9%   25.6%   26.3%   sw1_tg
+52.8%   NA      49.9%   26.9%   27.5%   v2_eval_spnlm_mu_dumbow
+30.1%   NA      46.7%   24.1%   25.2%   v2_sw1_fsh_spn
+30.9%   NA      47.2%   24.7%   25.7%   v2_sw1_fsh_spn_pr
+Kaldi   DL(old) DL_SWBD DNN     CNN
