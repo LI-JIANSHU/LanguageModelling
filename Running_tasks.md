@@ -32,6 +32,7 @@ The result <a href='Results/swbd_run'>here</a> is similar to that given in Kaldi
  * run_spnlm.sh  mixure of sw1,fisher,eval_spn with equal weights and the pruned version of it. The result is [here](Results/fish_mix_all)
  * Decode deeplearn AM for various LMs. Result is [here](Results/deeplearn2)
  * Decode deeplearn AM (modified, add two more fully connected layers). Result is [here](Results/deeplearn_swbd)
+ * Decode deeplearn AM, longer training time. Result is [here](Results/deeplearn_swbd_long_train)
     
 ---
 
