@@ -1,5 +1,5 @@
 exp/tri4a       exp_deeplearn/spn_tri4a exp_deeplearn/spn_tri4a_110h    exp_pdnn_110h/dnn       exp_pdnn_110h/cnn       LM
-Kaldi	  SPNCNN	DNN	    CNN	    LMs
+Kaldi	SPNCNN	 DNN	 CNN	 LMs
 37.8%   40.6%   31.3%   32.4%   SPN for Evaluation data set: eval_spnlm_mu2
 58.2%   41.5%   35.5%   35.8%   SPN for Evaluation data set with dummy BOW: eval_spnlm_mu2_dum
 31.4%   35.0%   24.8%   25.6%   Fisher itself: fisher
@@ -8,4 +8,4 @@ Kaldi	  SPNCNN	DNN	    CNN	    LMs
 31.2%   34.7%   24.5%   25.6%   Three mixure with pruning: sw1_fsh_spn.pr
 31.3%   34.9%   24.9%   25.6%   Original Kaldi with Finsher: sw1_fsh_tgpr
 32.1%   35.5%   25.6%   26.3%   Original Kaldi: sw1_tg
-Kaldi	  SPNCNN	DNN	    CNN	    LMs
+Kaldi	SPNCNN	 DNN 	CNN	 LMs
