@@ -33,6 +33,7 @@ The result <a href='Results/swbd_run'>here</a> is similar to that given in Kaldi
  * Decode deeplearn AM for various LMs. Result is [here](Results/deeplearn2)
  * Decode deeplearn AM (modified, add two more fully connected layers). Result is [here](Results/deeplearn_swbd)
  * Decode deeplearn AM, longer training time. Result is [here](Results/deeplearn_swbd_long_train)
+ * Change the training parameters: parameters initialized from CNN, moment is fixed, learning rate is small (the one after CNN fine-tune stage), no l2_decay is applied. The result is [here](Results/deeplearn_swbd_ini_cnn)
     
 ---
 
