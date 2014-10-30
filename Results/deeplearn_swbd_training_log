@@ -1,0 +1,80 @@
+Validation Err:
+jsli@ai1:~/kaldi/kaldi-trunk/egs/swbd/s5b$ less link_to_spn.fine.log | grep "Valid E"
+Train Err: 0.488281     Valid Err: 0.445616
+Train Err: 0.420387     Valid Err: 0.444064
+Train Err: 0.414777     Valid Err: 0.443213
+Train Err: 0.409223     Valid Err: 0.443877
+Train Err: 0.41391      Valid Err: 0.444724
+Train Err: 0.41293      Valid Err: 0.443199
+Train Err: 0.417027     Valid Err: 0.444468
+Train Err: 0.421324     Valid Err: 0.445261
+Train Err: 0.419848     Valid Err: 0.444669
+Train Err: 0.411426     Valid Err: 0.445806
+Train Err: 0.396891     Valid Err: 0.44491
+Train Err: 0.397156     Valid Err: 0.444573
+Train Err: 0.404863     Valid Err: 0.445051
+Train Err: 0.40107      Valid Err: 0.445344
+Train Err: 0.400887     Valid Err: 0.444962
+Train Err: 0.420984     Valid Err: 0.445074
+Train Err: 0.409133     Valid Err: 0.445102
+Train Err: 0.427254     Valid Err: 0.445121
+Train Err: 0.434398     Valid Err: 0.444656
+Train Err: 0.436477     Valid Err: 0.445289
+Train Err: 0.423133     Valid Err: 0.443085
+Train Err: 0.398117     Valid Err: 0.44332
+Train Err: 0.403844     Valid Err: 0.443617
+Train Err: 0.41432      Valid Err: 0.443072
+Train Err: 0.424551     Valid Err: 0.443081
+Train Err: 0.415457     Valid Err: 0.443581
+Train Err: 0.413457     Valid Err: 0.451713
+Train Err: 0.410117     Valid Err: 0.450677
+Train Err: 0.405844     Valid Err: 0.44437
+Train Err: 0.419723     Valid Err: 0.442577
+Train Err: 0.421398     Valid Err: 0.442919
+Train Err: 0.427695     Valid Err: 0.44254
+Train Err: 0.419594     Valid Err: 0.442492
+Train Err: 0.413859     Valid Err: 0.442557
+Train Err: 0.428898     Valid Err: 0.442949
+Train Err: 0.445863     Valid Err: 0.443479
+Train Err: 0.434527     Valid Err: 0.443615
+Train Err: 0.401992     Valid Err: 0.442988
+Train Err: 0.39816      Valid Err: 0.442822
+Train Err: 0.410918     Valid Err: 0.44282
+Train Err: 0.416781     Valid Err: 0.443089
+Train Err: 0.417793     Valid Err: 0.44322
+Train Err: 0.430863     Valid Err: 0.443207
+Train Err: 0.43798      Valid Err: 0.443296
+Train Err: 0.434652     Valid Err: 0.443443
+Train Err: 0.41791      Valid Err: 0.442809
+Train Err: 0.397531     Valid Err: 0.442569
+Train Err: 0.396688     Valid Err: 0.442718
+Train Err: 0.41257      Valid Err: 0.443155
+Train Err: 0.411195     Valid Err: 0.443557
+
+Learning Rate: 
+jsli@ai1:~/kaldi/kaldi-trunk/egs/swbd/s5b$ less link_to_spn.fine.log | grep "Mo"
+This is an output node. LR and Moment are: 0.00125 0.5. Step is 0
+This is an output node. LR and Moment are: 0.00108819 0.5. Step is 2000
+This is an output node. LR and Moment are: 0.000947323 0.5. Step is 4000
+This is an output node. LR and Moment are: 0.000824692 0.5. Step is 6000
+This is an output node. LR and Moment are: 0.000717936 0.5. Step is 8000
+This is an output node. LR and Moment are: 0.000625 0.5. Step is 10000
+This is an output node. LR and Moment are: 0.000544094 0.5. Step is 12000
+This is an output node. LR and Moment are: 0.000473661 0.5. Step is 14000
+This is an output node. LR and Moment are: 0.000412346 0.5. Step is 16000
+This is an output node. LR and Moment are: 0.000358968 0.5. Step is 18000
+This is an output node. LR and Moment are: 0.0003125 0.5. Step is 20000
+This is an output node. LR and Moment are: 0.000272047 0.5. Step is 22000
+This is an output node. LR and Moment are: 0.000236831 0.5. Step is 24000
+This is an output node. LR and Moment are: 0.000206173 0.5. Step is 26000
+This is an output node. LR and Moment are: 0.000179484 0.5. Step is 28000
+This is an output node. LR and Moment are: 0.00015625 0.5. Step is 30000
+This is an output node. LR and Moment are: 0.000136024 0.5. Step is 32000
+This is an output node. LR and Moment are: 0.000118415 0.5. Step is 34000
+This is an output node. LR and Moment are: 0.000103087 0.5. Step is 36000
+This is an output node. LR and Moment are: 8.97421e-05 0.5. Step is 38000
+This is an output node. LR and Moment are: 7.8125e-05 0.5. Step is 40000
+This is an output node. LR and Moment are: 6.80118e-05 0.5. Step is 42000
+This is an output node. LR and Moment are: 5.92077e-05 0.5. Step is 44000
+This is an output node. LR and Moment are: 5.15433e-05 0.5. Step is 46000
+This is an output node. LR and Moment are: 4.4871e-05 0.5. Step is 48000
